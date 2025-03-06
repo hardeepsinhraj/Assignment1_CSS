@@ -1,0 +1,108 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  /* Typography */
+body {
+font-family: 'Poppins', sans-serif; 
+line-height: 1.6;
+color: #333;
+background-color: #f9f9f9;
+}
+h1, h2 {
+font-family: 'Dancing Script', cursive;
+font-weight: 700;
+}
+h1 {
+font-size: 4rem;
+text-align: center;
+margin-top: 20px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+header > p {
+font-size: 2rem;
+background-color: #1193b3;
+display: inline;
+font-family: 'Dancing Script', cursive;
+text-shadow: 2px 2px 4px rgba(242, 239, 239, 0.3);
+}
+h2 {
+font-size: 2.5rem;
+margin-bottom: 10px;
+color: #444;
+  }
+p {
+font-size: 1.1rem;
+margin-bottom: 15px;
+}
+.lyrics {
+font-family: "Dancing Script", cursive;
+font-size: 1.5rem;
+line-height: 1.8;
+margin: 20px 0;
+padding: 10px 20px;
+border-left: 5px solid #302b31;
+background-color: #2dc0b66f;
+color: #555555;
+}
+#song{
+border-left: 5px solid #302b31;
+background-color: #2dc0b66f;
+font-family: "Playfair Display", serif;
+line-height: 1.5;
+padding: 5px ;
+}
+#singer{
+border-left: 5px solid #302b31;
+background-color: #2dc0b66f;
+font-family: "Playfair Display", serif;
+padding: 5px ;
+    
+}
+/* Layout */
+header {
+text-align: center;
+padding: 40px 20px;
+background-color: #8898ac;
+color: #fff;
+background-image: url('Christina-Perri.avif'); /* Add a background image */
+background-size:auto;
+background-repeat: no-repeat;
+background-position: center;
+}
+main {
+padding: 20px;
+max-width: 800px;
+margin: 0 auto;
+flex-grow: 1;
+}
+footer {
+text-align: center;
+padding: 40px 20px; 
+box-sizing:border-box; 
+background-color: #8898ac;
+color: #ffffff;
+margin-top: 20px;
+width: 100%;
+position: relative;
+}  
+footer a {
+color: #fff;
+text-decoration: none;
+}
+  
+footer a:hover {
+text-decoration: underline;
+}
+footer > p {
+color: #f9f9f9;
+font-style: italic;
+font-size: 1.2rem;
+line-height: 1.8;
+margin: 20px 0; 
+padding: 10px 20px; 
+border: 5px solid #62daef85; 
+background-color: #2c869665;
+} 
