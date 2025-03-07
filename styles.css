@@ -1,16 +1,17 @@
-/* CSS Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-  /* Typography */
+  /* Typography and colors*/
 body {
 font-family: 'Poppins', sans-serif; 
 line-height: 1.6;
 color: #333;
 background-color: #f9f9f9;
 }
+/* set headings' fonts and color */
 h1, h2 {
 font-family: 'Dancing Script', cursive;
 font-weight: 700;
@@ -37,6 +38,7 @@ p {
 font-size: 1.1rem;
 margin-bottom: 15px;
 }
+/* set appropiet css for song lyrics */
 .lyrics {
 font-family: "Dancing Script", cursive;
 font-size: 1.5rem;
@@ -47,6 +49,7 @@ border-left: 5px solid #302b31;
 background-color: #2dc0b66f;
 color: #555555;
 }
+/* Song Information Styling */
 #song{
 border-left: 5px solid #302b31;
 background-color: #2dc0b66f;
@@ -54,6 +57,7 @@ font-family: "Playfair Display", serif;
 line-height: 1.5;
 padding: 5px ;
 }
+/* Singer Information Styling */
 #singer{
 border-left: 5px solid #302b31;
 background-color: #2dc0b66f;
@@ -61,10 +65,10 @@ font-family: "Playfair Display", serif;
 padding: 5px ;
     
 }
-/* Layout */
+
 header {
 text-align: center;
-padding: 40px 20px;
+padding: 55px 20px;
 background-color: #8898ac;
 color: #fff;
 background-image: url('Christina-Perri.avif'); /* Add a background image */
@@ -73,6 +77,10 @@ background-repeat: no-repeat;
 background-position: center;
 }
 main {
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
 padding: 20px;
 max-width: 800px;
 margin: 0 auto;
@@ -88,6 +96,7 @@ margin-top: 20px;
 width: 100%;
 position: relative;
 }  
+/* lyrics sources styling */
 footer a {
 color: #fff;
 text-decoration: none;
@@ -96,6 +105,7 @@ text-decoration: none;
 footer a:hover {
 text-decoration: underline;
 }
+/* set css for footer paragraph */
 footer > p {
 color: #f9f9f9;
 font-style: italic;
